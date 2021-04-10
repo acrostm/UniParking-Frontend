@@ -1,0 +1,40 @@
+.homegridcontainer{
+    display: grid;
+    grid-row: 2em auto auto 2em; 
+    grid-column: 2em auto 2em auto;   
+    justify-items: center;
+
+ 
+}
+.map{
+
+    grid-row: 2/4; 
+    grid-column: 2/3;
+
+}
+.map h3{
+    grid-row: 1/2; 
+    grid-column: 2/3;
+}
+.survey{
+
+    grid-row: 2/3; 
+    grid-column: 4/5; 
+
+}
+.survey h3 {
+    grid-row: 1/2; 
+    grid-column: 4/5; 
+}
+.notes{
+
+    grid-row: 3/4; 
+    grid-column: 4/5; 
+}
+.notes h3{
+    grid-row: 4/5; 
+    grid-column: 4/5; 
+}
+.title {
+    text-align: center;
+}

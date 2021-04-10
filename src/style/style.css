@@ -1,0 +1,263 @@
+/* Montserrat Font Import */
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  }
+
+
+/* Home Page */
+/* main{
+    background: whitesmoke;
+} */
+a {
+    text-decoration: none;
+    color: rgb(40,67,129);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+/* a:visited{
+    color: rgb(40,67,129);
+} */
+
+p {
+    font-size: 2rem;
+    color: white;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Grid for the entire website */
+.maingridcontainer{
+    display: grid;
+    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+}
+
+header{
+    grid-row: 1 / 2 ;
+    height: 8em;
+    background-color: whitesmoke;
+    padding: 0.5em;
+}
+
+.homegridcontainer{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+footer{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+
+/* note table */
+.notetable {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 6rem;
+}
+
+td{
+    background: white;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+  
+  
+tr:hover {background-color: #ddd;}
+
+th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: rgb(40,67,129);
+color: white;
+}
+.notetable input {
+    width: 100%;
+  }
+input[type=submit] {
+    background-color: rgb(40,67,129);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* --------------------------- */
+
+/* Form */
+
+
+.surveyform label {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+  
+.surveyform input, select{
+    margin-top: 6px;
+    min-width: 18em;
+    height: 37px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    border: 2px;
+    border-radius: 4px;
+    margin-bottom: 31px;
+    transition: all 250ms ease-in-out;
+}
+.surveyform input:focus {
+    outline: none;
+    box-shadow: 0 0 12px 0.8px #0e81ce96;
+}
+.surveyform {
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+.content label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btncontainer{
+    display:flex;
+    justify-content: center;
+}
+
+
+  /* .label {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .input {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  } */
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+/* api to backend */
+.extended {
+    grid-row: 2/3;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+  /* ------------------------------ */
+  .googlemap {
+      margin-top: 20em;
+  }
+/* Footer */
+footer{
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background: rgb(40,67,129);
+    padding: 1em;
+}
+footer ul li{
+    color: white;
+    margin-left: 1em;
+}
+footer li.contact {
+    float: right;
+}
+footer li .about{
+    float: left;
+}
+
+/* button styling */
+.btnall {
+    font-size: 21px;
+    width: 8em;
+    margin: 0.5em;
+    padding: 5px 20px;
+    border: 0;
+    background-color: #004AAD;
+    color: #fff;
+    border-radius: 3px;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.btnall:hover {
+      background-color: #2386c8;
+    }
+
+.btnall:focus {
+      outline: none;
+    }
+
+
+
+
+/* form box styling */
+/* form styling
+        .form {
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: fit-content;
+                
+                label {
+                    font-size: 20px;
+                }
+
+                input {
+                    margin-top: 6px;
+                    min-width: 18em;
+                    height: 37px;
+                    padding: 0 10px;
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: #f3f3f3;
+                    border: 0;
+                    border-radius: 4px;
+                    margin-bottom: 31px;
+                    transition: all 250ms ease-in-out;
+
+                    &:focus {
+                        outline: none;
+                        box-shadow: 0 0 12px 0.8px #0e81ce96;
+                    }
+                }
+            }
+        }
+    } */

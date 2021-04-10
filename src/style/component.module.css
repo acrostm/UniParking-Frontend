@@ -1,0 +1,13 @@
+.Link:visited{
+    background-color: tomato;
+
+}
+.Link{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #666666;
+    border: 5px solid red;
+
+}

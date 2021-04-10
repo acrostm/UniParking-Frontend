@@ -1,0 +1,39 @@
+{
+    "data":[
+    {
+        "properties": {
+            "PARK_ID": 1,
+            "PARK_NAME": "Council House 2 (CH2)",
+            "coordinates" :[-37.8142591432011, 144.966638432727]
+        }
+    },
+    {
+        "properties": {
+            "PARK_ID": 2,
+            "PARK_NAME": "Southgate Arts and Leisure Precinct", 
+            "coordinates" :[-37.8202245786597, 144.965989052839]
+        }
+    },
+    {
+        "properties": {
+            "PARK_ID": 3,
+            "PARK_NAME": "Melbourne Wholesale Fruit, Vegetable & Flower Market", 
+            "coordinates" :[-37.80687252157, 144.923287444259]
+        }
+    },
+    {
+        "properties": {
+            "PARK_ID": 4,
+            "PARK_NAME": "Melbourne Central", 
+            "coordinates" :[-37.8105371797142, 144.962749729496]
+        }
+    },
+    {
+        "properties": {
+            "PARK_ID": 5,
+            "PARK_NAME": "ANZ 'Gothic' Bank", 
+            "coordinates" :[-37.8161580666029, 144.961673719242]
+        }
+    }
+    ]
+}
