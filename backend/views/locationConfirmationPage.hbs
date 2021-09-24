@@ -1,0 +1,20 @@
+<h1><b>Team Name: No Backing Out</b></h1>
+<h3>Topic: Car Parks Around Unimelb</h3>
+<br><br><br>
+
+
+<section class="formSection">
+    <h3>Your parking location has been noted</h3>
+    <div>
+        {{# each itemLocation }}
+        <article class="eachItem">
+            <div>Car Park Name: {{ this.parkName}}</div>
+            <div>Parking Level: {{ this.parkLevel }}</div>
+            <div>Parking Number: {{ this.parkNumber }}</div>
+            <div>Parking Note: {{ this.parkingNote }}</div>
+        </article>
+        <br>
+        {{/each}}
+    </div>
+    <button><a href="/">Home</a></button>
+</section>

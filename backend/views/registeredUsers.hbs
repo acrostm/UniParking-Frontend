@@ -1,0 +1,19 @@
+<h1><b>Team Name: No Backing Out</b></h1>
+<h3>Topic: Car Parks Around Unimelb</h3>
+<br><br><br>
+
+
+
+<section class="returnedList">
+    <h3>All Registered Users</h3>
+    <div>
+        {{# each itemUsers }}
+        <article class="eachItem">
+            <div>Username: {{ this.username }}</div>
+            <div>Password: {{ this.password }}</div>
+        </article>
+        <br>
+        {{/each}}
+    </div>
+    <button><a href="/">Go Back</a></button>
+</section>

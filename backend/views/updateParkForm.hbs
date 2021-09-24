@@ -1,0 +1,55 @@
+<h1><b>Team Name: No Backing Out</b></h1>
+<h3>Topic: Car Parks Around Unimelb</h3>
+<br><br><br>
+
+<section class="formSection">
+    <h3>Please Give Details of This Car Park</h3>
+    <form action="/parks/insertCarPark" method="post">
+        <div class="input">
+            <label for="parkName">Car Park Name</label>
+            <input type="text" id="parkName" name="parkName" required>
+        </div> <br>
+
+        <div class="input">
+            <label for="parkAddress">Car Park Address</label>
+            <input type="text" id="parkAddress" name="parkAddress" required>
+        </div> <br>
+
+        <div class="input">
+            <label for="parkDistance">Distance to Campus</label>
+            <input type="number" id="parkDistance" name="parkDistance">
+        </div> <br>
+
+        <div class="input">
+            <label for="parkType">Car Park Type:</label>
+            <input type="radio" id="parkType1" name="parkType" value="indoor">
+            <label for="parkType1">Indoor</label>
+            <input type="radio" id="parkType2" name="parkType" value="outdoor">
+            <label for="parkType2">Outdoor</label>
+            <input type="radio" id="parkType3" name="parkType" value="others">
+            <label for="parkType3">Others</label>
+        </div> <br>
+
+        <div class="input">
+            <label for="parkCost">Cost</label>
+            <input type="text" id="parkCost" name="parkCost">
+        </div> <br>
+
+        <div class="input">
+            <label for="parkHour">Opening Hour</label>
+            <input type="text" id="parkHour" name="parkHour">
+        </div> <br>
+
+        <div class="input">
+            <label for="parkNote">Note</label>
+            <input type="text" id="parkNote" name="parkNote">
+        </div> <br>
+
+        <div class="input">
+            <label for="parkHeight">Height Limit</label>
+            <input type="number" step="0.01" id="parkHeight" name="parkHeight">
+        </div> <br>
+
+        <button type="submit">Add/Update</button>
+    </form>
+</section>

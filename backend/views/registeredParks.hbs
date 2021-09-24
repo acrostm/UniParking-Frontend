@@ -1,0 +1,25 @@
+<h1><b>Team Name: No Backing Out</b></h1>
+<h3>Topic: Car Parks Around Unimelb</h3>
+<br><br><br>
+
+
+
+<section class="returnedList">
+    <h3>All Available Parks</h3>
+    <div>
+        {{# each itemCarParks }}
+        <article class="eachItem">
+            <div>parkName: {{ this.parkName }}</div>
+            <div>parkAddress: {{ this.parkAddress }}</div>
+            <div>parkDistance: {{ this.parkDistance }}</div>
+            <div>parkType: {{ this.parkType }}</div>
+            <div>parkCost: {{ this.parkCost }}</div>
+            <div>parkHour: {{ this.parkHour }}</div>
+            <div>parkNote: {{ this.parkNote }}</div>
+            <div>parkHeight: {{ this.parkHeight }}</div>
+        </article>
+        <br>
+        {{/each}}
+    </div>
+    <button><a href="/">Go Back</a></button>
+</section>

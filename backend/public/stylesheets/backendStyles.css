@@ -1,0 +1,56 @@
+body {
+  padding: 50px;
+  font: 16px "Futura", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: rgb(7, 176, 243);
+}
+
+.returnedList{
+  float: left;
+  color: white;
+  background: rgb(40, 60, 110);
+  padding: 10px;
+  margin: 30px;
+  width: 200px;
+  box-shadow: 0.5px 0.5px 10px darkslategray;
+  /* min-height: 400px; */
+
+}
+
+.formSection{
+  float: left;
+  color: white;
+  background: rgb(40, 60, 110);
+  padding: 20px;
+  margin: 20px;
+  width: 350px;
+  box-shadow: 0.5px 0.5px 10px darkslategray;
+}
+
+
+.homeSection{
+  float: left;
+  color: white;
+  background: rgb(40, 60, 110);
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0.5px 0.5px 10px darkslategray;
+}
+
+
+
+
+.hidden{
+  display: none;
+}
+
+.eachItem {
+  margin: 6px 6px 0px 6px;
+  padding: 4px;
+  color: black;
+  background: rgb(203, 212, 238);
+
+}

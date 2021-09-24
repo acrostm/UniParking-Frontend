@@ -1,0 +1,30 @@
+<h1><b>Team Name: No Backing Out</b></h1>
+<h3>Topic: Car Parks Around Unimelb</h3>
+<br><br><br>
+
+
+<section class="formSection">
+    <h3>Please upload the current car park status</h3>
+    <form action="/parks/updateStatus" method="post">
+        <div class="input">
+            <label for="parkName">Car Park Name</label>
+            <input type="text" id="parkName" name="parkName">
+        </div> <br>
+
+        <div class="input">
+            <label for="parkStatus">Car Park Status:</label>
+            <input type="radio" id="parkStatus1" name="parkStatus" value="full">
+            <label for="parkStatus1">Full</label>
+            <input type="radio" id="parkStatus2" name="parkStatus" value="nearly full">
+            <label for="parkStatus2">Nearly Full</label>
+            <input type="radio" id="parkStatus3" name="parkStatus" value="half full">
+            <label for="parkStatus3">Half Full</label>
+            <input type="radio" id="parkStatus4" name="parkStatus" value="vacant">
+            <label for="parkStatus4">Vacant</label>
+            <input type="radio" id="parkStatus5" name="parkStatus" value="closed">
+            <label for="parkStatus5">Closed</label>
+        </div> <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
